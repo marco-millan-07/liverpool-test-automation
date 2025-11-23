@@ -1,0 +1,15 @@
+{
+  "name": "liverpool-test",
+  "version": "1.0.0",
+  "scripts": {"test": "cucumber-js",
+    "report": "node generate-report.js",
+    "test:report": "npm run test && npm run report"},
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.56.1",
+    "allure-commandline": "^2.34.1",
+    "allure-cucumberjs": "^3.4.2",
+    "multiple-cucumber-html-reporter": "^3.9.3",
+    "playwright": "^1.56.1"
+  }
+}

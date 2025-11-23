@@ -1,0 +1,79 @@
+[
+  {
+    "description": "  Como usuario de Liverpool\n  Quiero aplicar el filtro de 50% o más de descuento en laptops\n  Para validar que los productos realmente cumplen con el descuento aplicado",
+    "elements": [
+      {
+        "description": "",
+        "id": "validación-de-descuentos-del-50%-o-más-en-laptops;validar-matemáticamente-que-los-descuentos-son-del-50%-o-más",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Validar matemáticamente que los descuentos son del 50% o más",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 567108199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "que navego a la categoría de Laptops",
+            "match": {
+              "location": "features\\step_definitions\\descuento_laptops.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15786452799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "aplico el filtro de \"50% o más de descuento\"",
+            "match": {
+              "location": "features\\step_definitions\\descuento_laptops.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3487432999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "todos los productos deben tener un descuento real del 50% o mayor",
+            "match": {
+              "location": "features\\step_definitions\\descuento_laptops.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2367772099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 293152500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "validación-de-descuentos-del-50%-o-más-en-laptops",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Validación de descuentos del 50% o más en Laptops",
+    "tags": [],
+    "uri": "features\\descuento_laptops.feature"
+  }
+]
