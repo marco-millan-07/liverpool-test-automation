@@ -4,7 +4,7 @@ Autor: Marco Antonio Gómez Millán
 Este proyecto implementa Playwright + Cucumber (BDD) bajo el patrón de diseño Page Object Model (POM), ejecutando 4 pruebas funcionales sobre el sitio web de Liverpool.  
 Incluye reportes automaticos con Multiple Cucumber HTML Reporter.
 
-**Herramientas usadas**
+**1. Herramientas usadas**
 - Playwright
 -Cucumber.js (BDD: Gherkin + Steps)
 - JavaScript / Node.js
@@ -66,6 +66,7 @@ Automatizar 4 casos de prueba funcionales** sobre el sitio www.liverpool.com.mx,
 
 /reports/html
 ```
+
 
 
 
