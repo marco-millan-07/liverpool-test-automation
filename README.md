@@ -43,14 +43,14 @@ Automatizar 4 casos de prueba funcionales** sobre el sitio www.liverpool.com.mx,
 - calcular porcentaje de descuento
 - Verificar que el descuento real sea mayor o igual a 50%
 
-4. EJECUCION DE LAS PRUEBAS**
+**4. EJECUCION DE LAS PRUEBAS**
 1. Clonar el repositorio
      - git clone https://github.com/marco-millan-07/liverpool-test-automation.git
      - cd liverpool-test-automation
 2. Instalar dependencias
-      - npm install
+     - npm install
 3. Instalar los navegadores de Playwright
-   -npx playwright install
+     - npx playwright install
 4. Ejectuar todos los escenarios de prueba
      - npx cucumber-js
 5. Generar el reporte(al finalizar la ejecucion)
@@ -58,7 +58,7 @@ Automatizar 4 casos de prueba funcionales** sobre el sitio www.liverpool.com.mx,
      - se ubica en (reports/html/index.html)
 
 **5. Este script genera:**
--Capturas de pantalla automaticas cuando algo falla
+- Capturas de pantalla automaticas cuando algo falla
 - Resultados JSON
 - Reporte HTML navegable
 
@@ -66,5 +66,6 @@ Automatizar 4 casos de prueba funcionales** sobre el sitio www.liverpool.com.mx,
 
 /reports/html
 ```
+
 
 
